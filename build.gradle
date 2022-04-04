@@ -25,10 +25,10 @@ repositories {
 dependencies {
     implementation 'org.projectlombok:lombok:1.18.20'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
-    testImplementation 'com.codeborne:selenide:6.3.4'
+    testImplementation 'com.codeborne:selenide:6.0.3'
     testImplementation 'org.slf4j:slf4j-simple:1.7.32'
     implementation 'com.github.javafaker:javafaker:1.0.2'
-    testImplementation 'io.qameta.allure:allure-selenide:2.13.3'
+    testImplementation 'io.qameta.allure:allure-selenide:2.16.1'
 }
 
 test {
